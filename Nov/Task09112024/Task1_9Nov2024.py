@@ -8,11 +8,13 @@
 
 num1  =15
 num2 =2
-# Print Quotient
+#Print Quotient
 Q=(num1//num2)
 print(Q)
 # Print Remainder
-R=(num1%num2)
+#R=(num1%num2) #finding reminder using operator
+R=divmod(15,2) #using inbuilt function to  get quotient and reminder
+
 print(R)
 
 
