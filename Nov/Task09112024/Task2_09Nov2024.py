@@ -9,7 +9,7 @@ num3=float(input("Enter the num 3"))
 sum=num1 + num2+num3
 sub=num1 - num2-num3
 mul=num1 * num2*num3
-div=num1 / num2/num3
+div=(num1 / num2)/num3
 
 print("Sum is : ", sum )
 print("Sub is : ", sub )
