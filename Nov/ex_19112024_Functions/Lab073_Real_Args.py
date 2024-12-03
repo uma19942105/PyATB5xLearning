@@ -4,5 +4,5 @@ def make_pizza(*toppings):
         print(i)
 
 Alam=make_pizza("tomato","pineapple","jalepenos")
-Yusuf=make_pizza("chicken","cchicken")
+Yusuf=make_pizza("chicken","chicken")
 Waseem=make_pizza("onion")
