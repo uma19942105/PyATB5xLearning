@@ -1,7 +1,7 @@
 class Parent:
     gold="2kg"
 
-def __init__(self):
+    def __init__(self):
       print("DC")
 
     def BHK2(self):
@@ -15,8 +15,8 @@ class Child(Parent):
 
    diamond ="Diamond"
 
-      def BHK3(self):
-          print("3BHK")
+    def BHK3(self):
+        print("3BHK")
 
 child_object=Child()
 print(child_object.gold)
